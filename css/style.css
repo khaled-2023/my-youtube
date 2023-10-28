@@ -1,0 +1,237 @@
+/*header*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+
+}
+header .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -45px;
+}
+header img{
+    width: 50%;
+    padding-left: -10px;
+}
+header .log{
+    font-size: 20px;
+    font-weight: 50px;
+    
+}
+/*headrl mid*/
+header .mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    width: 628px;}
+
+        .mid form{
+            height: 40px;
+            width:490px;
+        } 
+.mid input{
+    height: 40px;
+    width: 80%;
+padding: 12px;
+font-size: 17px;
+border: 1.5px solid #d3d3d3;
+border-right: none;
+border-radius: 50px 0 0 50px;
+}
+.mid button{
+    height: 40px;
+    width: 64px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 50px 50px 0;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 4;
+    margin-left: -3px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+
+}
+.mid .mic{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: -5px;
+    border: 18px solid #d3d3d3;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mid button:hover , .mic:hover{
+    border-color: #c6c6c6;
+    background-color: #f0f0f0;
+
+}
+
+/*header right*/
+.right .rr{
+    font-size: 22px;
+   padding-left: 15px;
+   color: #222222;
+}
+
+/*header right*/
+
+/* aside */
+.main{
+    height: calc(100vh-56px);
+    width: 100%;
+    background-color:white;
+
+}
+.main .left{
+    height: 100%;
+    width: 320px;
+    background-color: #f9f9f9;
+    /* padding-left: 15px; */
+}
+
+.left a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 15px 0px;
+    padding: 10px 0px;
+    color: black
+}
+.left #active{
+    background-color: #e5e5e5;
+    font-weight: 500;
+}
+.left a #ss{
+    font-size:1rem;
+    /* margin-left: 24px; */
+    line-height: 2em;
+    font-weight: 400;
+    color: #030303;
+}
+.left a:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+.left #active:hover{
+    background-color: rgba(0, 0, 0, 0.05);   
+}
+.left a{
+    font-size: 1rem;
+    color: #606060;
+    font-weight: 500px;
+    padding: 8px 0px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+ } 
+.left a .mm{
+height: 24px;
+width: 24px;
+border-radius: 50px;
+margin-right: 10px;
+} 
+.left .pp{
+    font-size: 1.rem;
+    text-transform: uppercase;
+    color: red;
+    margin-left: 6px;
+}
+/* aside */
+
+
+/* right*/
+.main{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    border-top: 1px solid #ddd;
+    overflow-y: auto;
+    display: flex;
+}
+#video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.video{
+    width: 350px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.object{
+    width: 100%;
+    height: 197px;
+    margin-bottom: 12px;
+}
+.object img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.creator-img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+.v-creator,.comment{
+    color: rgb(96,96,96);
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+
+}
+.v-creator:hover{
+    color: black;
+}
+.video-details{
+    display: flex;
+}
+.title{
+    color: rgb(3,3,3,);
+    font-size: 1.6rem;
+    max-width: 278px;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-bottom: 4px;
+    overflow: hidden;
+
+}
+
+
+
+
+
